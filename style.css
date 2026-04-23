@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    padding: 0 200px;
+    background-color: #1F2937;
+}
 
 
 a {
@@ -16,7 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    padding: 20px 50px;
+    padding: 20px 0;
     background-color: #1F2937;
 }
 
@@ -36,7 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    /* padding: 20px 0; */
     height: 80%;
 
 }
@@ -44,19 +48,20 @@ header {
 .main-sub-cont {
     width: 50%;
     background-color: white;
-    padding: 0 50px;
+    /* padding: 0 50px; */
+    margin-top: 20px;
 }
 
-#subcont-1 {
+#left-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* background-color: #1F2937; */
+    align-items: flex-start;
+    background-color: #1F2937;
     height: 100%;
 }
 
-.main-sub-cont {
-    color: white;
-    margin-top: 20px;
+img {
+    max-width: 100%;
+    height: auto;
 }
